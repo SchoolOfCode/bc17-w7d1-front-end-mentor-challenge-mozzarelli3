@@ -4,19 +4,123 @@
 
 body {
     background: #F3EAE3;
+    display: flex;
+    justify-content: center;
 }
 
 .middle {
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #FFFFFF;
-    margin: 20rem 10rem;
+    margin: 20rem;
     height: 450px;
     width: 600px;
+    border-radius: 10px;
 }
 
 img {
     height: 450px;
     width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+.text {
+    padding: 32px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 31px;
+    color: #1C232B;
+    margin: 24px 0;
+}
+
+h3.perfume, h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #6c7289;
+}
+
+h3.perfume {
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0px;
+}
+
+.fraunces {
+    font-family: Fraunces;
+    font-weight: 700;
+}
+
+h3.fraunces {
+    color: #3D8168;
+    font-size: 32px;
+    align-items: center;
+    margin: 0;
+    padding: 25px 0;
+}
+
+h3.fraunces, p {
+    display: inline-block;
+    align-items: center;
+}
+
+p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 20px;
+    color: #6c7289;
+    text-align: center;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+}
+
+p.onesixnine {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+    color: #6c7289;
+}
+
+p.onesixnine s {
+    color: inherit;
+    font-size: inherit;
+}
+
+#button {
+    align-items: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D8168;
+    height: 48px;
+    width: 236px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+p.button {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
 }
